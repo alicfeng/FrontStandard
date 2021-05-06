@@ -1,16 +1,51 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>前端技术文档</title>
+  <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
-  <div onclick="directToJSJVue()">jsj-vue</div>
+  <div class="text-center m-v-20-auto max-width-1200">
+    <span class="font-28">jsj前端团队的技术文档。分为通用开发篇和组件库篇</span>
+    
+
+    <div class="m-t-40">
+      <span class="font-24">组件库篇</span>
+      <div class="text-left">
+        <div class="m-t-10">
+          <span class="bold hover-link pointer" onclick="directTo('/jsj-antr/')">jsj-antr：</span>
+          antr是ant design + react的缩写， 以这两个框架开发的公共ui组件
+        </div>
+        <div class="m-t-10">
+          <span class="bold hover-link pointer" onclick="directTo('/jsj-antv/')">jsj-antv：</span>
+          antv是ant design + vue的缩写， 以这两个框架开发的公共ui组件
+        </div>
+        <div class="m-t-10">
+          <span class="bold hover-link pointer" onclick="directTo('/jsj-common/')">jsj-common：</span>
+          common顾名思义是公共的，框架和非框架项目都可以共用，包含公共样式，公共方法等
+        </div>
+        <div class="m-t-10">
+          <span class="bold hover-link pointer" onclick="directTo('/jsj-vue/')">jsj-vue：</span>
+          在vue2.x框架基础上不借助任何第三方ui组件，在通用vue项目中引入开发
+        </div>
+        <div class="m-t-10">
+          <span class="bold hover-link pointer" onclick="directTo('/jsj-ele/')">jsj-ele：</span>
+          ele是element-ui+vue的缩写，以两个框架组合开发的公共ui组件
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script>
-    function directToJSJVue() {
-      window.location.href = window.location.origin + '/jsj-vue/'
+    function directTo(str) {
+      console.log('salkgdjklj');
+      window.location.href = window.location.origin + str
     }
   </script>
 </body>
+
 </html>
