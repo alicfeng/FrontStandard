@@ -22,6 +22,12 @@ else
   echo "jsj-ele文件夹不存在"
 fi
 
+if [ -d "jsj-react/" ];then
+  rm -rf jsj-react
+else
+  echo "jsj-react文件夹不存在"
+fi
+
 if [ -d "jsj-vue/" ];then
   rm -rf jsj-vue
 else
@@ -49,6 +55,11 @@ cd ..
 cd jsj-common
 npm run build:doc
 scp -r styleguide ../../FrontStandard/jsj-common
+
+cd ..
+cd jsj-react
+npm run build:doc
+scp -r styleguide ../../FrontStandard/jsj-react
 
 cd ..
 cd jsj-ele
