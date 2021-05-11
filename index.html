@@ -14,14 +14,15 @@
 
     <div class="m-t-30">
       <div class="font-24 text-center">组件库篇</div>
+      <div class="text-center">如发现项目中版本号和组件库版本号不一致，以组件库版本号为准，需要更新项目的版本</div>
       <div class="text-left">
         <div class="m-t-10">
           <span class="bold hover-link pointer" onclick="directTo('/jsj-antr/')">jsj-antr：</span>
-          antr是ant design + react的缩写， 以这两个框架开发的公共ui组件
+          antr是ant design(4.2.0) + react(16.13.0)的缩写， 以这两个框架开发的公共ui组件
         </div>
         <div class="m-t-10">
           <span class="bold hover-link pointer" onclick="directTo('/jsj-antv/')">jsj-antv：</span>
-          antv是ant design + vue的缩写， 以这两个框架开发的公共ui组件
+          antv是ant-design-vue(1.7.4) + vue(2.6.12)的缩写， 以这两个框架开发的公共ui组件
         </div>
         <div class="m-t-10">
           <span class="bold hover-link pointer" onclick="directTo('/jsj-common/')">jsj-common：</span>
@@ -29,16 +30,16 @@
         </div>
         <div class="m-t-10">
           <span class="bold hover-link pointer" onclick="directTo('/jsj-vue/')">jsj-vue：</span>
-          在vue2.x框架基础上不借助任何第三方ui组件，在通用vue项目中引入开发
+          在vue(2.6.12)框架基础上不借助任何第三方ui组件，在通用vue项目中引入开发
         </div>
         <div class="m-t-10">
           <span class="bold hover-link pointer" onclick="directTo('/jsj-react/')">jsj-react:</span>
-          在react(16.13.0)基础上不借助任何第三方ui组件，在通用react项目中引入开发,同时还融入了hooks(很重要)
+          在react(16.13.0)基础上不借助任何第三方ui组件，在通用react项目中引入开发,同时可使用hooks(很重要)
         </div>
         <div class="m-t-10">
           <span class="bold hover-link pointer" onclick="directTo('/jsj-ele/')">jsj-ele：</span>
-          ele是element-ui+vue的缩写，以两个框架组合开发的公共ui组件
-          <div class="ml-30">ps:此仓库在海尔可视化项目改造为ant-design-vue组件库之后会废弃掉</div>
+          ele是element-ui(2.15.1)+vue(2.6.12)的缩写，以两个框架组合开发的公共ui组件
+          &nbsp;&nbsp;&nbsp;&nbsp;ps:此仓库在海尔可视化项目改造为ant-design-vue组件库之后会废弃掉
         </div>
       </div>
     </div>
@@ -67,9 +68,11 @@
         技术栈react，vue项目占比55开，react生态ui组件库只有极星项目使用antd(3.x),其他react项目antd均为4.x，vue生态ui组件库只有haier-visualization使用element-ui，其他均为ant-design-vue<br />
         <div>考虑到公司私有npm仓库所用技术的统一性，可持续性，可维护性,下面三个内容请重视</div>
         <div class="bold p-20">
-          1、极星项目60个分支，后续开发人员在所开发的分支第一时间核对antd版本号，根据如下的提示将antd从3版本升级到4。
+          1、后续的新项目使用react技术栈，新的页面全部采用function component，使用jsj-react中的hooks可以提升开发效率
+          <div class="m-t-10">
+            2、极星项目60个分支，后续开发人员在所开发的分支第一时间核对antd版本号，根据如下的提示将antd从3版本升级到4，并及时做好分支的文档维护。
+          </div>
           <div class="p-l-20"><img src="./updateToV4.png" alt=""></div>
-          2、后续的新项目使用react技术栈，新的页面全部采用function component，从而可以使用jsj-react中的hooks
         </div>
       </div>
 
