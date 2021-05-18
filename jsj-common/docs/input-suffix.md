@@ -23,7 +23,7 @@ input标签后字数显示组件
     constructor(props) {
       super(props)
       this.state = {
-        inputValue: 'react初始输入值'
+        inputValue: ''
       }
     }
     render() {
