@@ -15,6 +15,7 @@ if [ -d "jsj-common/" ];then
 else
   echo "jsj-common文件夹不存在"
 fi
+mkdir jsj-common
 
 if [ -d "jsj-ele/" ];then
   rm -rf jsj-ele
@@ -53,8 +54,12 @@ scp -r dist ../../FrontStandard/jsj-antv
 
 cd ..
 cd jsj-common
-npm run build:doc
-scp -r styleguide ../../FrontStandard/jsj-common
+scp -r docs ../../FrontStandard/jsj-common/docs
+scp Readme.md ../../FrontStandard/jsj-common/Readme.md
+scp index.html ../../FrontStandard/jsj-common/index.html
+scp -r components ../../FrontStandard/jsj-common/components
+scp .nojekyll ../../FrontStandard/jsj-common/.nojekyll
+scp index.css ../../FrontStandard/jsj-common/index.css
 
 cd ..
 cd jsj-react
