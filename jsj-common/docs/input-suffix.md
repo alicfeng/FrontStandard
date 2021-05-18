@@ -6,13 +6,14 @@ input标签后字数显示组件
 
 由于input-suffix内置样式为绝对定位，需要结合外面容器position:relative; 一起使用
 
-*  react项目使用
+*  react项目使用 `(请点开expand查看代码)`
+
 ``` jsx
 /*react*/
 <style>
   .input-suffix-container {
     position: relative;
-    input-suffix {
+    .input-suffix {
       top: 10px;
     }
   }
@@ -22,14 +23,14 @@ input标签后字数显示组件
     constructor(props) {
       super(props)
       this.state = {
-        inputValue: ''
+        inputValue: 'react初始输入值'
       }
     }
     render() {
       return (
-        <div className="input-suffix-container">
-          <input onChange={e => this.setState({ inputValue: e.target.value })}/>
-          <input-suffix className="input-suffix" value={this.state.inputValue} maxLength="10" />
+        <div className="input-suffix-container width-400">
+          <input className="width-100-p" onChange={e => this.setState({ inputValue: e.target.value })}/>
+          <input-suffix className="input-suffix" value={this.state.inputValue} maxLength="30" />
         </div>
       )
     }
@@ -37,7 +38,7 @@ input标签后字数显示组件
   </script>
 ```
 
-* vue项目引用
+* vue项目使用
 
 ``` vue
 <div style="position: relative; ">
@@ -48,24 +49,24 @@ input标签后字数显示组件
 export default {
     data() {
       return {
-        inputValue: 'sdfg',
+        inputValue: 'vue初始输入值',
       }
     }  
   }
 </script>
 ```
 
-<div id="vue-example" style="position: relative; ">
-  <input v-model="inputValue"/>
+<div id="vue-example" style="position: relative; " class="width-400">
+  <input v-model="inputValue" class="width-100-p"/>
   <input-suffix maxlength="20" :value="inputValue" />
 </div>
 
 <script>
   new Vue({
-    el: '#vue-example',
+    el: '#vue-example', 
     data() {
       return {
-        inputValue: 'sdfg',
+        inputValue: 'vue初始输入值',
       }
     }  
 
@@ -75,11 +76,6 @@ export default {
 * 纯html使用
 
 ``` html
-<!-- 引入 -->
-<script type="module">
-    import '../components/input-suffix/index.js'
-</script>
-<!-- 使用 -->
 <div style="position: relative;">
     <input />
     <input-suffix value="input或者textArea等实时变化的值" maxlength="10" />
@@ -88,5 +84,5 @@ export default {
 
 <div style="position: relative; ">
   <input />
-  <input-suffix maxlength="10" />
+  <input-suffix maxlength="10"/>
 </div>

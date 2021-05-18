@@ -8,8 +8,8 @@ export default class InputSuffix extends HTMLElement {
         <style>
         :host{ 
           position: absolute;
-          top: -10px;
-          right: 6px;
+          top: 0;
+          right: 4px;
         }
         .primary-text {
           color: #1890ff;
