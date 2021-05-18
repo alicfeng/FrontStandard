@@ -56,6 +56,8 @@ cd ..
 cd jsj-common
 scp -r docs ../../FrontStandard/jsj-common/docs
 scp Readme.md ../../FrontStandard/jsj-common/Readme.md
+scp sidebar.md ../../FrontStandard/jsj-common/sidebar.md
+scp sidebar.md ../../FrontStandard/jsj-common/docs/sidebar.md
 scp index.html ../../FrontStandard/jsj-common/index.html
 scp -r components ../../FrontStandard/jsj-common/components
 scp .nojekyll ../../FrontStandard/jsj-common/.nojekyll
