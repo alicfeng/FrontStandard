@@ -1,0 +1,1 @@
+import{r,h as s}from"./p-30ca909f.js";import{P as t}from"./p-1ecbe995.js";import{g as o}from"./p-362fb144.js";import"./p-12b41941.js";const p=class{constructor(s){r(this,s),this.level=3,this.leading="body"}render(){return s(t,Object.assign({},o(["level","heading"],this)),s("slot",null))}};export{p as ui_paragraph}

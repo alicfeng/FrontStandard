@@ -1,0 +1,1 @@
+import{r,h as s}from"./p-30ca909f.js";import{C as t}from"./p-4b61b363.js";import{g as o}from"./p-362fb144.js";import"./p-12b41941.js";const p=class{constructor(s){r(this,s)}render(){return s(t,Object.assign({},o(["embelish"],this)),s("slot",null))}};export{p as ui_card}

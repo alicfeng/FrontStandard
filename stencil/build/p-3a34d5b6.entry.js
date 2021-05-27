@@ -1,0 +1,1 @@
+import{r as o,h as e}from"./p-30ca909f.js";const n=class{constructor(e){o(this,e)}render(){return e("div",null,e("h1",null,"Uh oh! We can't find the page you're looking for."),e("p",null,e("stencil-route-link",{url:"/",class:"block"},"Back to the home page")))}};n.style="notfound-page{text-align:center}";export{n as notfound_page}

@@ -1,0 +1,1 @@
+import{r as t,h as s}from"./p-30ca909f.js";const c=class{constructor(s){t(this,s),this.time=Date.now()}connectedCallback(){this.timer=window.setInterval((()=>{this.time=Date.now()}),1e3)}disconnectedCallback(){window.clearInterval(this.timer)}render(){const t=new Date(this.time).toLocaleTimeString();return s("span",null,t)}};export{c as custom_clock}

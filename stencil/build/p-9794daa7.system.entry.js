@@ -1,0 +1,1 @@
+System.register(["./p-d6caec50.system.js","./p-bb84256f.system.js"],(function(t){"use strict";var n,e,s;return{setters:[function(t){n=t.r;e=t.h},function(t){s=t.D}],execute:function(){var r=t("ui_dropdown",function(){function t(t){n(this,t);this.open=false}t.prototype.render=function(){return e(s,Object.assign({},this),e("slot",null))};return t}())}}}));

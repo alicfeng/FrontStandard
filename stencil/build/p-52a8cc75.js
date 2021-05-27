@@ -1,0 +1,1 @@
+import{h as e}from"./p-30ca909f.js";import{c as r}from"./p-83f217d4.js";const o=r({isLeftSidebarIn:!1,toggleLeftSidebar:()=>{}},((r,o)=>e("context-consumer",{subscribe:r,renderer:o})));export{o as S}
