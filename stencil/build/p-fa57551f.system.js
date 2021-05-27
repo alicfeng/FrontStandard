@@ -1,0 +1,1 @@
+System.register([],(function(e){"use strict";return{execute:function(){e("s",r);function r(e){if(!e){return""}return e.toString().toLowerCase().replace(/\s+/g,"-").replace(/\.+/g,"-").replace(/[^\w\-]+/g,"").replace(/\-\-+/g,"-").replace(/^-+/,"").replace(/-+$/,"")}}}}));

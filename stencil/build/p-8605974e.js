@@ -1,0 +1,1 @@
+import{h as o}from"./p-30ca909f.js";import{a as s}from"./p-12b41941.js";const t=(t,c)=>o("blockquote",Object.assign({},s(t,{class:"ui-blockquote"})),c);export{t as B}

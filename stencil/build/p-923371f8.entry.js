@@ -1,0 +1,1 @@
+import{r as t,h as r}from"./p-30ca909f.js";import{D as s}from"./p-71d6a088.js";import{g as o}from"./p-362fb144.js";import"./p-12b41941.js";const a=class{constructor(r){t(this,r),this.format={weekday:"short",year:"numeric",month:"long",day:"numeric"}}render(){return r(s,Object.assign({date:this.date},o(["format"],this)),r("slot",null))}};export{a as ui_date_time}

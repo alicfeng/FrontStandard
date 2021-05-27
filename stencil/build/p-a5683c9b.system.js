@@ -1,0 +1,1 @@
+System.register(["./p-d6caec50.system.js","./p-c22eece8.system.js"],(function(e){"use strict";var t,s;return{setters:[function(e){t=e.h},function(e){s=e.a}],execute:function(){var c=e("B",(function(e,c){return t("blockquote",Object.assign({},s(e,{class:"ui-blockquote"})),c)}))}}}));

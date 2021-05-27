@@ -1,0 +1,1 @@
+import{h as s}from"./p-30ca909f.js";import{a}from"./p-12b41941.js";const r=(r,c)=>s("div",Object.assign({},a(r,{class:"ui-card"+(!1!==r.embelish?" ui-card--embelish":"")})),c);export{r as C}

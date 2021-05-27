@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://stenciljs.com/</loc></url>
+<url><loc>https://stenciljs.com/blog</loc></url>
+<url><loc>https://stenciljs.com/design-systems</loc></url>
+<url><loc>https://stenciljs.com/resources</loc></url>
+<url><loc>https://stenciljs.com/blog/how-lazy-loading-web-components-work</loc></url>
+<url><loc>https://stenciljs.com/blog/stencil-roadmap-fall-2019</loc></url>
+<url><loc>https://stenciljs.com/docs/angular</loc></url>
+<url><loc>https://stenciljs.com/docs/ember</loc></url>
+<url><loc>https://stenciljs.com/docs/getting-started</loc></url>
+<url><loc>https://stenciljs.com/docs/introduction</loc></url>
+<url><loc>https://stenciljs.com/docs/react</loc></url>
+<url><loc>https://stenciljs.com/docs/stencil-for-design-systems</loc></url>
+<url><loc>https://stenciljs.com/docs/vue</loc></url>
+</urlset>

@@ -1,0 +1,1 @@
+import{r,h as o}from"./p-30ca909f.js";import{B as s}from"./p-8605974e.js";import"./p-12b41941.js";const t=class{constructor(o){r(this,o)}render(){return o(s,null,o("slot",null))}};export{t as ui_blockquote}
