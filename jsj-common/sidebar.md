@@ -5,4 +5,6 @@
     * [jsj-input-suffix](components/jsj-input-suffix/readme.md)
 * **公共样式**
     * [类命名规范](styles.md)
+* **公共方法**
+    * [公共方法](utils.md)
     
