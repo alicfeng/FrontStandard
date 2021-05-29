@@ -21,24 +21,12 @@ npm i --save jsj-common@latest
             applyPolyfills().then(defineCustomElements)
           ```
         - 页面使用处
-          > typescript语法需要下载webcomponents-in-react模块包
           ```tsx
-            import {adapt} from "webcomponents-in-react"
-
-            const Ellipsis = adapt('jsj-ellipsis')  // adapt里面的组件名需要完全和通用组件名保持一致
+            import { JsjEllipsis } from "jsj-common/dist/react"
 
             const App = () => {
               return (<div>
-                <Ellipsis value="asdgjhklasg" />
-              </div>)
-            }
-          ```
-          > 也可以简单粗暴得使用但是需要加ts-ignore标识
-           ```tsx
-            const App = () => {
-              return (<div>
-                {* @ts-ignore *}
-                <jsj-ellipsis value="asdgjhklasg" />
+                <JsjEllipsis value="asdgjhklasg" line="1" />
               </div>)
             }
           ```
@@ -65,18 +53,22 @@ npm i --save jsj-common@latest
         > 现代浏览器支持原生`import`语法，不过需要注意`script`的类型`type="module"`。
 
       ```js static
-        <script type="module">
-          import './node_modules/jsj-common/index.js';
-        </script>
+        <script type="module" src="./node_modules/jsj-common/dist//jsj-common.esm.js"></script>
+        <script nomodule src="./node_modules/jsj-common/dist/jsj-common.js"></script>
       ```
 
 2. 公共样式使用
-    - js中使用
-      ````js static
-      import 'jsj-common/dist/index.css'
-      ````
-    - less/scss等文件中使用
-      ````less static
-      @import '~jsj-common/dist/index.css';
-      ````
+  - js中使用
+    ````js static
+    import 'jsj-common/dist/index.css'
+    ````
+  - less/scss等文件中使用
+    ````less static
+    @import '~jsj-common/dist/index.css';
+    ````
+
+3. 公共方法使用
+  ````js static
+    import 'jsj-common/dist/utils'
+  ````
 
