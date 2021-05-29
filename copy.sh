@@ -42,3 +42,10 @@ cd ..
 cd jsj-react
 npm run build:doc
 scp -r styleguide ../../FrontStandard/jsj-react
+
+cd ..
+cd ..
+cd FrontStandard
+
+# exec ./modify.sh
+sed -i 's/\/build/\/jsj-common\/build/g' jsj-common/index.html
