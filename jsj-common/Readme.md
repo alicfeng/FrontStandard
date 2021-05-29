@@ -73,10 +73,10 @@ npm i --save jsj-common@latest
 2. 公共样式使用
     - js中使用
       ````js static
-      import 'jsj-common/index.css'
+      import 'jsj-common/dist/index.css'
       ````
     - less/scss等文件中使用
       ````less static
-      @import '~jsj-common/index.css';
+      @import '~jsj-common/dist/index.css';
       ````
 

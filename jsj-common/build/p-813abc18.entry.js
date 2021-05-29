@@ -1,0 +1,1 @@
+import{r as t,h as s,H as r}from"./p-21ea798a.js";const o=class{constructor(s){t(this,s)}render(){return s(r,null,s("span",null,"(",s("span",{class:"primary-text"},this.value?this.value.length:0),"/",this.maxLength,")"))}};o.style=":host{position:absolute;top:0;right:4px}.primary-text{color:#1890ff;font-weight:500}";export{o as jsj_input_suffix}

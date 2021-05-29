@@ -1,3 +1,14 @@
+## 文件引入
+
+- js中使用
+  ````js static
+  import 'jsj-common/dist/index.css'
+  ````
+- less/scss等文件中使用
+  ````less static
+  @import '~jsj-common/dist/index.css';
+  ````
+
 ## margin/padding篇
 字母解释： m代表margin，p在第一个代表padding，p在最后一个代表percent，auto即字面意思
 
