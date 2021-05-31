@@ -20,7 +20,7 @@ npm i --save jsj-common@latest
 
             applyPolyfills().then(defineCustomElements)
           ```
-        - 页面使用处
+        - 页面使用处(通用组件中的名字Jsj开头，对于-的地方改写为驼峰命名)
           ```tsx
             import { JsjEllipsis } from "jsj-common/dist/react"
 

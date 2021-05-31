@@ -2,6 +2,11 @@
 
 input标签后字数显示组件
 
+```tsx
+// react写法
+import { JsjInputSuffix } from 'jsj-common/dist/react'
+```
+
 
 ```html
 <div style="position: relative;">

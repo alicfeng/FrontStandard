@@ -1,0 +1,31 @@
+// @import "./node_modules/@esri/calcite-colors/dist/colors.scss";
+// @import "./node_modules/@esri/calcite-base/dist/_index.scss";
+@import './base/index.scss';
+@import './mixins/color';
+
+
+
+
+/* mixins & extensions */
+@import './mixins/animation';
+@import "./mixins/focus";
+@import "./mixins/host";
+@import "./mixins/spacing";
+@import "./mixins/popper";
+
+@mixin slotted($selector, $tag, $scope: "") {
+  #{$scope} slot[name="#{$selector}"]::slotted(#{$tag}),
+  #{$scope} #{$tag}::slotted([slot="#{$selector}"]) {
+    @content;
+  }
+}
+
+:host([hidden]) {
+  display: none;
+}
+
+@mixin word-break() {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+

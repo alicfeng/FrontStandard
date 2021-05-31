@@ -1,6 +1,11 @@
 # jsj-editor
 通用编辑器
 
+```tsx
+// react写法
+import { JsjEditor } from 'jsj-common/dist/react'
+```
+
 
 ```html
 <jsj-editor id="quill-editor" format="json" content=""></jsj-editor>
