@@ -1,7 +1,7 @@
 ## 文件引入
 
 ````js static
-import 'jsj-common/dist/utils'
+import '@jsj/core/dist/utils'
 ````
 
 # loadScript  
