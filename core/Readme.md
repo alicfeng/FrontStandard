@@ -45,7 +45,7 @@ npm i --save @jsj/core@latest
         > 现代浏览器支持原生`import`语法，不过需要注意`script`的类型`type="module"`。
 
       ```js static
-        <script type="module" src="./node_modules/jsj-common/dist/jsj-common/jsj-common.esm.js"></script>
+        <script type="module" src="./node_modules/@jsj/core/dist/jsj-common/jsj-common.esm.js"></script>
       ```
 
 2. 公共样式使用  入口文件js处使用
