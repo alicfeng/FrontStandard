@@ -2,8 +2,8 @@
 通用编辑器
 
 ```tsx
-// react写法
-import { JsjEditor } from 'jsj-common/dist/react'
+// react写法  入参为property驼峰命名，  vue或者html的入参对应attribute
+import { JsjEditor } from '@jsj/react'
 ```
 
 
@@ -51,4 +51,4 @@ import { JsjEditor } from 'jsj-common/dist/react'
 
 ----------------------------------------------
 
-jsj-common，一个强大的组件库
+@jsj/core，一个强大的组件库

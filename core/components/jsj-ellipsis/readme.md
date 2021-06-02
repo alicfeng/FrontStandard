@@ -2,8 +2,8 @@
 超出换行显示组件
 
 ```tsx
-// react写法
-import { JsjEllipsis } from 'jsj-common/dist/react'
+// react写法  入参为property驼峰命名，  vue或者html的入参对应attribute
+import { JsjEllipsis } from '@jsj/react'
 ```
 
 ```html
@@ -26,4 +26,4 @@ import { JsjEllipsis } from 'jsj-common/dist/react'
 
 ----------------------------------------------
 
-jsj-common，一个强大的组件库
+@jsj/core，一个强大的组件库
